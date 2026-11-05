@@ -1,0 +1,66 @@
+[
+  {
+    "title": "ZZZ MUSIC DB",
+    "genre": "网站",
+    "description": "绝区零音乐库",
+    "labels": ["VitePress", "Vue"],
+    "link": "https://yimo-ye.github.io/zzz-music-db/",
+    "status": "ongoing"
+  },
+  {
+    "title": "HSR MUSIC DB",
+    "genre": "网站",
+    "description": "崩坏星穹铁道音乐库",
+    "labels": ["VitePress", "Vue"],
+    "link": "https://yimo-ye.github.io/hsr-music-db/",
+    "status": "ongoing"
+  },
+  {
+    "title": "MiLink图标替换",
+    "genre": "LSP模块",
+    "description": "自定义替换HyperOS4融合设备中心的设备图标",
+    "labels": ["LSPosed", "Java"],
+    "link": "",
+    "status": "ongoing"
+  },
+  {
+    "title": "纽扣",
+    "genre": "安卓APP",
+    "description": "简洁轻便的工具箱类软件",
+    "labels": ["FusionApp", "lua"],
+    "link": "https://nuco.mysxl.cn/",
+    "status": "archived"
+  },
+  {
+    "title": "哔哩小部件",
+    "genre": "安卓APP",
+    "description": "包含众多B站常用功能、视频榜单的KWGT小部件",
+    "labels": ["KWGT", "JavaScript"],
+    "link": "",
+    "status": "archived"
+  },
+  {
+    "title": "米板小部件 For KWGT",
+    "genre": "安卓APP",
+    "description": "专为小米平板5系列打造的KWGT小部件",
+    "labels": ["KWGT", "JavaScript"],
+    "link": "https://www.coolapk.com/apk/291615",
+    "status": "archived"
+  },
+  {
+    "title": "News For KWGT",
+    "genre": "安卓APP",
+    "description": "基于KWGT的新闻资讯小部件包",
+    "labels": ["KWGT", "JavaScript"],
+    "link": "https://www.coolapk.com/apk/291955",
+    "status": "archived"
+  },
+  {
+    "title": "Clock For KWGT",
+    "genre": "安卓APP",
+    "description": "基于KWGT的小部件包，包含12个样式的时钟部件",
+    "labels": ["KWGT", "JavaScript"],
+    "link": "https://www.coolapk.com/apk/com.nucapp.clockwidgets",
+    "status": "archived"
+  }
+]
