@@ -20,7 +20,15 @@
     "genre": "LSP模块",
     "description": "自定义替换HyperOS4融合设备中心的设备图标",
     "labels": ["LSPosed", "Java"],
-    "link": "",
+    "link": "https://github.com/Yimo-Ye/milink-icon-replacer",
+    "status": "ongoing"
+  },
+  {
+    "title": "旋转控制",
+    "genre": "安卓APP",
+    "description": "通过ROOT权限强制控制屏幕旋转和固定方向",
+    "labels": ["Java"],
+    "link": "安卓APP",
     "status": "ongoing"
   },
   {
@@ -29,6 +37,14 @@
     "description": "简洁轻便的工具箱类软件",
     "labels": ["FusionApp", "lua"],
     "link": "https://nuco.mysxl.cn/",
+    "status": "archived"
+  },
+  {
+    "title": "磁贴图标包",
+    "genre": "安卓APP",
+    "description": "Win10磁贴风格的APP图标包",
+    "labels": ["Java"],
+    "link": "",
     "status": "archived"
   },
   {
