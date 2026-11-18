@@ -8,11 +8,11 @@
     "status": "ongoing"
   },
   {
-    "title": "HSR MUSIC DB",
+    "title": "FALLGUYS OST",
     "genre": "网站",
-    "description": "崩坏星穹铁道音乐库",
+    "description": "糖豆人OST曲库",
     "labels": ["VitePress", "Vue"],
-    "link": "https://yimo-ye.github.io/hsr-music-db/",
+    "link": "./fallguys-ost",
     "status": "ongoing"
   },
   {
@@ -20,15 +20,15 @@
     "genre": "LSP模块",
     "description": "自定义替换HyperOS4融合设备中心的设备图标",
     "labels": ["LSPosed", "Java"],
-    "link": "https://github.com/Yimo-Ye/milink-icon-replacer",
+    "link": "./milink-icon-replacer",
     "status": "ongoing"
   },
   {
     "title": "旋转控制",
     "genre": "安卓APP",
-    "description": "通过ROOT权限强制控制屏幕旋转和固定方向",
+    "description": "控制屏幕旋转和固定方向",
     "labels": ["Java"],
-    "link": "安卓APP",
+    "link": "./rotation-toggle",
     "status": "ongoing"
   },
   {
@@ -36,7 +36,23 @@
     "genre": "安卓APP",
     "description": "简洁轻便的工具箱类软件",
     "labels": ["FusionApp", "lua"],
-    "link": "https://nuco.mysxl.cn/",
+    "link": "./Nuco",
+    "status": "archived"
+  },
+  {
+    "title": "米板小部件 For KWGT",
+    "genre": "安卓APP",
+    "description": "专为小米平板5系列打造的KWGT小部件",
+    "labels": ["KWGT", "JavaScript"],
+    "link": "./MiPadWidgets",
+    "status": "archived"
+  },
+  {
+    "title": "哔哩小部件",
+    "genre": "安卓APP",
+    "description": "包含众多B站常用功能、视频榜单的KWGT小部件",
+    "labels": ["KWGT", "JavaScript"],
+    "link": "./BiliWidgets",
     "status": "archived"
   },
   {
@@ -48,27 +64,11 @@
     "status": "archived"
   },
   {
-    "title": "哔哩小部件",
-    "genre": "安卓APP",
-    "description": "包含众多B站常用功能、视频榜单的KWGT小部件",
-    "labels": ["KWGT", "JavaScript"],
-    "link": "",
-    "status": "archived"
-  },
-  {
-    "title": "米板小部件 For KWGT",
-    "genre": "安卓APP",
-    "description": "专为小米平板5系列打造的KWGT小部件",
-    "labels": ["KWGT", "JavaScript"],
-    "link": "https://www.coolapk.com/apk/291615",
-    "status": "archived"
-  },
-  {
     "title": "News For KWGT",
     "genre": "安卓APP",
     "description": "基于KWGT的新闻资讯小部件包",
     "labels": ["KWGT", "JavaScript"],
-    "link": "https://www.coolapk.com/apk/291955",
+    "link": "",
     "status": "archived"
   },
   {
@@ -76,7 +76,15 @@
     "genre": "安卓APP",
     "description": "基于KWGT的小部件包，包含12个样式的时钟部件",
     "labels": ["KWGT", "JavaScript"],
-    "link": "https://www.coolapk.com/apk/com.nucapp.clockwidgets",
+    "link": "",
+    "status": "archived"
+  },
+  {
+    "title": "获取当前壁纸",
+    "genre": "安卓APP",
+    "description": "将当前桌面设置的壁纸保存为图片",
+    "labels": ["FusionApp", "lua"],
+    "link": "",
     "status": "archived"
   }
 ]

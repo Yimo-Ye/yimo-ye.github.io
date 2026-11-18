@@ -1,0 +1,643 @@
+{
+  "seasonMeta": {
+    "终极淘汰赛": {
+      "tag": "S1",
+      "img": "https://cdn2.unrealengine.com/fallguysultimateknockout-season1-heroart-nologo-960x540-18f203307234.jpg?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #FF5E9C 0%, #FF9A76 100%)"
+    },
+    "中世纪淘汰赛": {
+      "tag": "S2",
+      "img": "https://cdn2.unrealengine.com/fallguysultimateknockout-season2-heroart-nologo-960x540-70ced2d4784f.jpg?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #38BDF8 0%, #818CF8 100%)"
+    },
+    "冬季淘汰赛": {
+      "tag": "S3",
+      "img": "https://cdn2.unrealengine.com/fallguysultimateknockout-season3-heroart-nologo-960x540-74c337cd1d80.jpg?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #60A5FA 0%, #2DD4BF 100%)"
+    },
+    "4041": {
+      "tag": "S4",
+      "img": "https://cdn2.unrealengine.com/fallguysultimateknockout-season4-heroart-nologo-960x540-b36c5f40f8a6.jpg?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #A855F7 0%, #EC4899 100%)"
+    },
+    "丛林冒险": {
+      "tag": "S5",
+      "img": "https://cdn2.unrealengine.com/fallguysultimateknockout-season5-heroart-nologo-960x540-107b029abacc.jpg?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #10B981 0%, #FBBF24 100%)"
+    },
+    "盛大派对": {
+      "tag": "S6",
+      "img": "https://cdn2.unrealengine.com/s06-keyart-final-v2-1920x1080-86265d267c31.jpg?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #F43F5E 0%, #FB923C 100%)"
+    },
+    "免费乐翻天": {
+      "tag": "SS1",
+      "img": "https://cdn2.unrealengine.com/fallguys-keyart-no-logo-24b-3840x2160-3840x2160-a2f46d1332f6-compressed-3840x2160-6a5cb646a5b3.jpg?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #00C2FF 0%, #7958F8 100%)"
+    },
+    "卫星大乱斗": {
+      "tag": "SS2",
+      "img": "https://cdn2.unrealengine.com/fgss02-keyart-nologo-16x9-1920x1080-1920x1080-6da1ade65839.png?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%)"
+    },
+    "深海之下": {
+      "tag": "SS3",
+      "img": "https://cdn2.unrealengine.com/fgss03-keyart-nologo-16x9-1920x1080-1920x1080-6a539f3e2d87.png?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #06B6D4 0%, #0EA5E9 100%)"
+    },
+    "梦想成真": {
+      "tag": "SS4",
+      "img": "https://cdn2.unrealengine.com/fgss04-keyart-nologo-16x9-3840x216-3840x2160-0147b583e339.png?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #EC4899 0%, #8B5CF6 100%)"
+    },
+    "后续更新与特别版": {
+      "tag": "UPDATES",
+      "img": "https://cdn2.unrealengine.com/fall-guys-creative-page-hero-background-desktop-1440x810-6d3b69ce2475.png?resize=1&w=720&q=75",
+      "gradient": "linear-gradient(135deg, #F59E0B 0%, #EF4444 100%)"
+    }
+  },
+  "genreMeta": {
+    "大厅与结算": {
+      "desc": "主界面、胜利与淘汰",
+      "emoji": "🎵",
+      "color": "#FFB800"
+    },
+    "竞速关卡 BGM": {
+      "desc": "高能电子节拍",
+      "emoji": "⚡",
+      "color": "#00C2FF"
+    },
+    "生存与团队 BGM": {
+      "desc": "欢乐混乱对抗",
+      "emoji": "🔥",
+      "color": "#FF4F8B"
+    },
+    "积分与加载 BGM": {
+      "desc": "轻松过渡旋律",
+      "emoji": "🎯",
+      "color": "#10B981"
+    },
+    "决赛关卡 BGM": {
+      "desc": "皇冠争夺决战",
+      "emoji": "👑",
+      "color": "#A855F7"
+    },
+    "创意工坊专属": {
+      "desc": "自定义关卡原声",
+      "emoji": "🛠️",
+      "color": "#F97316"
+    },
+    "特别活动与模式": {
+      "desc": "限时玩法与联动",
+      "emoji": "🎪",
+      "color": "#EC4899"
+    }
+  },
+  "tracks": [
+    {
+      "id": 1,
+      "title": "Everybody Falls (Fall Guys Theme)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "终极淘汰赛",
+      "genre": "大厅与结算",
+      "wyid": "1467035132",
+      "duration": "02:45",
+      "seconds": 165,
+      "color": "#00A8FF",
+      "audioUrl": "/audio/01-everybody-falls.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Fall 'N' Roll",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "终极淘汰赛",
+      "genre": "竞速关卡 BGM",
+      "wyid": "1467035134",
+      "duration": "03:05",
+      "seconds": 185,
+      "color": "#FF5E9C",
+      "audioUrl": "/audio/02-fall-n-roll.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Survive the Fall",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "终极淘汰赛",
+      "genre": "生存与团队 BGM",
+      "wyid": "1467034187",
+      "duration": "03:12",
+      "seconds": 192,
+      "color": "#FF4F8B",
+      "audioUrl": "/audio/03-survive-the-fall.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Chimney Shuffle",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "终极淘汰赛",
+      "genre": "积分与加载 BGM",
+      "wyid": "1467034188",
+      "duration": "02:30",
+      "seconds": 150,
+      "color": "#10B981",
+      "audioUrl": "/audio/04-chimney-shuffle.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Final Fall",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "终极淘汰赛",
+      "genre": "决赛关卡 BGM",
+      "wyid": "1467035136",
+      "duration": "02:58",
+      "seconds": 178,
+      "color": "#FFB800",
+      "audioUrl": "/audio/05-final-fall.mp3"
+    },
+    {
+      "id": 6,
+      "title": "You Lose! / You Win!",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "终极淘汰赛",
+      "genre": "大厅与结算",
+      "wyid": "1467035137",
+      "duration": "00:45",
+      "seconds": 45,
+      "color": "#F59E0B",
+      "audioUrl": "/audio/06-you-lose-you-win.mp3"
+    },
+    {
+      "id": 7,
+      "title": "Everybody Falls (To the Middle Ages)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "中世纪淘汰赛",
+      "genre": "大厅与结算",
+      "duration": "02:50",
+      "seconds": 170,
+      "color": "#38BDF8",
+      "audioUrl": "/audio/07-everybody-falls-middle-ages.mp3"
+    },
+    {
+      "id": 8,
+      "title": "Beans of the Round Table",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "中世纪淘汰赛",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:20",
+      "seconds": 200,
+      "color": "#818CF8",
+      "audioUrl": "/audio/08-beans-of-the-round-table.mp3"
+    },
+    {
+      "id": 9,
+      "title": "Sir Falls-A-Lot",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "中世纪淘汰赛",
+      "genre": "生存与团队 BGM",
+      "duration": "03:08",
+      "seconds": 188,
+      "color": "#6366F1",
+      "audioUrl": "/audio/09-sir-falls-a-lot.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Fall For the Queen Bean",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "中世纪淘汰赛",
+      "genre": "决赛关卡 BGM",
+      "duration": "02:55",
+      "seconds": 175,
+      "color": "#A855F7",
+      "audioUrl": "/audio/10-fall-for-the-queen-bean.mp3"
+    },
+    {
+      "id": 11,
+      "title": "Merry Falling, Everybody!",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "冬季淘汰赛",
+      "genre": "大厅与结算",
+      "duration": "02:48",
+      "seconds": 168,
+      "color": "#60A5FA",
+      "audioUrl": "/audio/11-merry-falling-everybody.mp3"
+    },
+    {
+      "id": 12,
+      "title": "Winter Fallympics",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "冬季淘汰赛",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:15",
+      "seconds": 195,
+      "color": "#2DD4BF",
+      "audioUrl": "/audio/12-winter-fallympics.mp3"
+    },
+    {
+      "id": 13,
+      "title": "Snowy Scrap",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "冬季淘汰赛",
+      "genre": "生存与团队 BGM",
+      "duration": "03:02",
+      "seconds": 182,
+      "color": "#34D399",
+      "audioUrl": "/audio/13-snowy-scrap.mp3"
+    },
+    {
+      "id": 14,
+      "title": "Skis & Falling",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "冬季淘汰赛",
+      "genre": "决赛关卡 BGM",
+      "duration": "02:52",
+      "seconds": 172,
+      "color": "#0EA5E9",
+      "audioUrl": "/audio/14-skis-and-falling.mp3"
+    },
+    {
+      "id": 15,
+      "title": "Everybody Falls (4041)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "4041",
+      "genre": "大厅与结算",
+      "duration": "02:54",
+      "seconds": 174,
+      "color": "#A855F7",
+      "audioUrl": "/audio/15-everybody-falls-4041.mp3"
+    },
+    {
+      "id": 16,
+      "title": "Future Falling",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "4041",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:18",
+      "seconds": 198,
+      "color": "#EC4899",
+      "audioUrl": "/audio/16-future-falling.mp3"
+    },
+    {
+      "id": 17,
+      "title": "Falling in Techno Color",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "4041",
+      "genre": "生存与团队 BGM",
+      "duration": "03:10",
+      "seconds": 190,
+      "color": "#D946EF",
+      "audioUrl": "/audio/17-falling-in-techno-color.mp3"
+    },
+    {
+      "id": 18,
+      "title": "Virtual Finale",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "4041",
+      "genre": "决赛关卡 BGM",
+      "duration": "03:04",
+      "seconds": 184,
+      "color": "#8B5CF6",
+      "audioUrl": "/audio/18-virtual-finale.mp3"
+    },
+    {
+      "id": 19,
+      "title": "Everybody Falls (Into the Jungle)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "丛林冒险",
+      "genre": "大厅与结算",
+      "duration": "02:49",
+      "seconds": 169,
+      "color": "#10B981",
+      "audioUrl": "/audio/19-everybody-falls-jungle.mp3"
+    },
+    {
+      "id": 20,
+      "title": "Temple Tumble",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "丛林冒险",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:22",
+      "seconds": 202,
+      "color": "#059669",
+      "audioUrl": "/audio/20-temple-tumble.mp3"
+    },
+    {
+      "id": 21,
+      "title": "Beans of the Lost Temple",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "丛林冒险",
+      "genre": "生存与团队 BGM",
+      "duration": "03:09",
+      "seconds": 189,
+      "color": "#FBBF24",
+      "audioUrl": "/audio/21-beans-of-the-lost-temple.mp3"
+    },
+    {
+      "id": 22,
+      "title": "Falling Through the Canopy",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "丛林冒险",
+      "genre": "积分与加载 BGM",
+      "duration": "02:40",
+      "seconds": 160,
+      "color": "#34D399",
+      "audioUrl": "/audio/22-falling-through-the-canopy.mp3"
+    },
+    {
+      "id": 23,
+      "title": "Crown of the Jungle",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "丛林冒险",
+      "genre": "决赛关卡 BGM",
+      "duration": "03:01",
+      "seconds": 181,
+      "color": "#F59E0B",
+      "audioUrl": "/audio/23-crown-of-the-jungle.mp3"
+    },
+    {
+      "id": 24,
+      "title": "Everybody Falls (At the Carnival)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "盛大派对",
+      "genre": "大厅与结算",
+      "duration": "02:51",
+      "seconds": 171,
+      "color": "#F43F5E",
+      "audioUrl": "/audio/24-everybody-falls-carnival.mp3"
+    },
+    {
+      "id": 25,
+      "title": "Big Top Beans",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "盛大派对",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:16",
+      "seconds": 196,
+      "color": "#FB923C",
+      "audioUrl": "/audio/25-big-top-beans.mp3"
+    },
+    {
+      "id": 26,
+      "title": "Party Promenade",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "盛大派对",
+      "genre": "生存与团队 BGM",
+      "duration": "03:07",
+      "seconds": 187,
+      "color": "#E11D48",
+      "audioUrl": "/audio/26-party-promenade.mp3"
+    },
+    {
+      "id": 27,
+      "title": "Pipe Dream",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "盛大派对",
+      "genre": "积分与加载 BGM",
+      "duration": "02:38",
+      "seconds": 158,
+      "color": "#F97316",
+      "audioUrl": "/audio/27-pipe-dream.mp3"
+    },
+    {
+      "id": 28,
+      "title": "Grand Finale",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "盛大派对",
+      "genre": "决赛关卡 BGM",
+      "duration": "02:59",
+      "seconds": 179,
+      "color": "#BE123C",
+      "audioUrl": "/audio/28-grand-finale.mp3"
+    },
+    {
+      "id": 29,
+      "title": "Everybody Falls (Free For All)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "免费乐翻天",
+      "genre": "大厅与结算",
+      "duration": "02:53",
+      "seconds": 173,
+      "color": "#00C2FF",
+      "audioUrl": "/audio/29-everybody-falls-ffa.mp3"
+    },
+    {
+      "id": 30,
+      "title": "Satellite Scramble",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "免费乐翻天",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:14",
+      "seconds": 194,
+      "color": "#7958F8",
+      "audioUrl": "/audio/30-satellite-scramble.mp3"
+    },
+    {
+      "id": 31,
+      "title": "Track Attack",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "免费乐翻天",
+      "genre": "生存与团队 BGM",
+      "duration": "03:06",
+      "seconds": 186,
+      "color": "#38BDF8",
+      "audioUrl": "/audio/31-track-attack.mp3"
+    },
+    {
+      "id": 32,
+      "title": "Hex-A-Ring",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "免费乐翻天",
+      "genre": "决赛关卡 BGM",
+      "duration": "02:57",
+      "seconds": 177,
+      "color": "#6366F1",
+      "audioUrl": "/audio/32-hex-a-ring.mp3"
+    },
+    {
+      "id": 33,
+      "title": "Everybody Falls (In Space)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "卫星大乱斗",
+      "genre": "大厅与结算",
+      "duration": "02:55",
+      "seconds": 175,
+      "color": "#3B82F6",
+      "audioUrl": "/audio/33-everybody-falls-space.mp3"
+    },
+    {
+      "id": 34,
+      "title": "Cosmic Highway",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "卫星大乱斗",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:21",
+      "seconds": 201,
+      "color": "#1D4ED8",
+      "audioUrl": "/audio/34-cosmic-highway.mp3"
+    },
+    {
+      "id": 35,
+      "title": "Star Chart",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "卫星大乱斗",
+      "genre": "生存与团队 BGM",
+      "duration": "03:11",
+      "seconds": 191,
+      "color": "#2563EB",
+      "audioUrl": "/audio/35-star-chart.mp3"
+    },
+    {
+      "id": 36,
+      "title": "Tip Toe Finale",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "卫星大乱斗",
+      "genre": "决赛关卡 BGM",
+      "duration": "03:03",
+      "seconds": 183,
+      "color": "#4F46E5",
+      "audioUrl": "/audio/36-tip-toe-finale.mp3"
+    },
+    {
+      "id": 37,
+      "title": "Everybody Falls (Sunken Secrets)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "深海之下",
+      "genre": "大厅与结算",
+      "duration": "02:50",
+      "seconds": 170,
+      "color": "#06B6D4",
+      "audioUrl": "/audio/37-everybody-falls-sunken.mp3"
+    },
+    {
+      "id": 38,
+      "title": "Speed Slider",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "深海之下",
+      "genre": "竞速关卡 BGM",
+      "duration": "03:17",
+      "seconds": 197,
+      "color": "#0EA5E9",
+      "audioUrl": "/audio/38-speed-slider.mp3"
+    },
+    {
+      "id": 39,
+      "title": "Blastlantis",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "深海之下",
+      "genre": "生存与团队 BGM",
+      "duration": "03:08",
+      "seconds": 188,
+      "color": "#0284C7",
+      "audioUrl": "/audio/39-blastlantis.mp3"
+    },
+    {
+      "id": 40,
+      "title": "Kraken Slam",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "深海之下",
+      "genre": "决赛关卡 BGM",
+      "duration": "03:00",
+      "seconds": 180,
+      "color": "#0369A1",
+      "audioUrl": "/audio/40-kraken-slam.mp3"
+    },
+    {
+      "id": 41,
+      "title": "Everybody Falls (Creative Construction)",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "梦想成真",
+      "genre": "大厅与结算",
+      "duration": "02:52",
+      "seconds": 172,
+      "color": "#EC4899",
+      "audioUrl": "/audio/41-everybody-falls-creative.mp3"
+    },
+    {
+      "id": 42,
+      "title": "Digital Beans",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "梦想成真",
+      "genre": "创意工坊专属",
+      "duration": "03:15",
+      "seconds": 195,
+      "color": "#8B5CF6",
+      "audioUrl": "/audio/42-digital-beans.mp3"
+    },
+    {
+      "id": 43,
+      "title": "Retro Block Party",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "梦想成真",
+      "genre": "创意工坊专属",
+      "duration": "03:09",
+      "seconds": 189,
+      "color": "#D946EF",
+      "audioUrl": "/audio/43-retro-block-party.mp3"
+    },
+    {
+      "id": 44,
+      "title": "Build & Fall",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "梦想成真",
+      "genre": "创意工坊专属",
+      "duration": "02:48",
+      "seconds": 168,
+      "color": "#F97316",
+      "audioUrl": "/audio/44-build-and-fall.mp3"
+    },
+    {
+      "id": 45,
+      "title": "Chill Your Beans",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "后续更新与特别版",
+      "genre": "大厅与结算",
+      "duration": "02:42",
+      "seconds": 162,
+      "color": "#F59E0B",
+      "audioUrl": "/audio/45-chill-your-beans.mp3"
+    },
+    {
+      "id": 46,
+      "title": "Yatta Yatta",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "后续更新与特别版",
+      "genre": "特别活动与模式",
+      "duration": "02:56",
+      "seconds": 176,
+      "color": "#EF4444",
+      "audioUrl": "/audio/46-yatta-yatta.mp3"
+    },
+    {
+      "id": 47,
+      "title": "Beans Ahoy!",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "后续更新与特别版",
+      "genre": "特别活动与模式",
+      "duration": "03:04",
+      "seconds": 184,
+      "color": "#14B8A6",
+      "audioUrl": "/audio/47-beans-ahoy.mp3"
+    },
+    {
+      "id": 48,
+      "title": "Scrapyard Stumble",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "后续更新与特别版",
+      "genre": "特别活动与模式",
+      "duration": "03:11",
+      "seconds": 191,
+      "color": "#EA580C",
+      "audioUrl": "/audio/48-scrapyard-stumble.mp3"
+    },
+    {
+      "id": 49,
+      "title": "Of Fables And Falling",
+      "composer": "Jukio Kallio & Daniel Hagström",
+      "season": "后续更新与特别版",
+      "genre": "特别活动与模式",
+      "duration": "03:19",
+      "seconds": 199,
+      "color": "#9333EA",
+      "audioUrl": "/audio/49-of-fables-and-falling.mp3"
+    }
+  ]
+}
